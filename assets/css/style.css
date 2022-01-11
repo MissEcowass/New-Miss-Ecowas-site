@@ -1,0 +1,1156 @@
+
+/* Google font Playfair Display import */
+@import 
+url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Playfair Display', serif; */
+
+
+/* Google font Montserrat import*/
+@import 
+url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+body{
+margin: 0;
+padding: 0;
+background-color: #181616;
+overflow-x: hidden;
+font-family: 'Playfair Display', serif;
+height: 100vh;
+color:black;
+width: 100%;
+}
+.alltags{
+  background-color: #181616;
+}
+
+/* <!-- ///////////////////////////////// Major Heading============================ --> */
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  z-index: 4;
+  margin: 0 auto;
+  margin-bottom: 25%;
+  margin-left: 49%;
+  overflow-x: hidden;
+  position: absolute;
+  width: 60%;
+  /* background-color: aqua; */
+}
+.container2 .textcontainer {
+  z-index:4;
+  position: relative;
+  top:8%;
+  /* left:2%; */
+  display: flex;
+  max-width: 1200px;
+  color: #3E3635;
+  flex-direction: column;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+.container2 .textcontainer  h1 span {
+  font-size: 110px;
+  font-weight: bolder !important;
+  cursor: default;
+  letter-spacing: -2px;
+}
+.container2 .textcontainer p{
+ font-size: 30px;
+ /* background-color:rgb(255, 255, 255); */
+ margin-bottom:-10%;
+ padding-right: 11px;
+ font-weight: bolder;
+ /* text-align:end; */
+}
+.glass{
+  background-color: #3E3635;
+  z-index: 4;
+}
+/* ///////////////////////////// Major heading media query================= */
+
+
+
+@media screen and (max-width: 768px){
+  .container2{
+    background-color: #b9c3ce00;
+    /* display: none; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 14%;
+    left: 50%;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+  }
+  .container2 .textcontainer {
+    max-width: 800px;
+    /* position: relative; */
+    top: -7%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    align-items: center;
+  }
+  .container2 .textcontainer h1 span {
+    font-size: 75px;
+    cursor: default;
+    font-weight: 900px;
+    text-align: center;
+  }
+  .container2 .textcontainer p{
+    font-size: 26px;
+    margin-bottom:-14%;
+    padding-right: 0px;
+    font-weight: bolder;
+    text-align: center;
+    
+    /* text-align:end; */
+    /* flex-direction: row;
+    justify-content:center; */
+   }
+}
+
+
+/* ////////////////////////////// major heading media query small phones================ */
+
+@media screen and (max-width: 375px){
+ 
+  .container2 .textcontainer {
+    max-width: 500px;
+    /* position: relative; */
+    top: -10%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    align-items: center;
+  }
+  .container2 .textcontainer h1 span {
+    font-size: 65px;
+  }
+  .container2 .textcontainer p{
+    font-size: 19px;
+   
+    
+    /* text-align:end; */
+    /* flex-direction: row;
+    justify-content:center; */
+   }
+}
+
+/* //////////////////////////////////////Glide ============================ */
+
+
+
+/* .glider p{
+  background-color: rgb(184, 20, 129);
+  background-size: cover;
+} */
+
+
+
+
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+
+
+
+.glider-contain div {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #00000060;
+  /* display:none; */
+  
+}
+
+.glider {
+  border-radius: 20px;
+  width: 400px;
+  position: relative;
+  top: 50%;
+  /* left: 7%; */
+  margin-bottom: -90%;
+  /* margin-left: 50%; */
+}
+
+.glider div {
+  display: flex;
+  align-items: center;
+  border-radius: 17px;
+  width: 100%;
+}
+
+.glider div img {
+  
+  max-width: 40%;
+  max-height: 400px;
+}
+
+.glider div p {
+  font-weight: 600;
+  padding: 0rem 6rem;
+  font-size:20px;
+  max-width: 60%;
+  max-height: 400px;
+  color:white ;
+  margin:0;
+}
+.glider div p span {
+  font-size: 30px;
+}
+
+/* /////////////////////////////Glider box Media query==================== */
+
+@media screen and (max-width: 768px){
+
+  .glider-contain div {
+    display: flex;
+    max-width: 1050px;
+    margin: 0 auto;
+    /* background-color: #e01a1a60; */
+    /* display:none; */
+    top: -90%;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    
+  }
+  .glider {
+    border-radius: 10px;
+    width: 350px;
+    max-height: 150px;
+    position: relative;
+    left: 0%;
+  
+  }
+  .glider div {
+    /* display:none; */
+    max-width: 1300px;
+  }
+  .glider div p {
+    font-size: 18px;
+    padding:0 0px;
+    /* margin: 0px; */
+    text-align: right;
+
+  }
+
+  .glider div img {
+    /* display:none; */
+    max-width: 110px;
+    /* max-height: 400px; */
+  }
+
+  .glider div p span {
+    font-size: 22px;
+  }
+
+}
+
+/* /////////////////////////////// Glider media query for small phones */
+
+@media screen and (max-width: 375px){
+
+  .glider-contain div {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    /* background-color: #e01a1a60; */
+    /* display:none; */
+    top: -120%;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    
+  }
+  .glider {
+    border-radius: 10px;
+    width: 300px;
+    max-height: 150px;
+    position: relative;
+    left: 0%;
+  
+  }
+  .glider div {
+    /* display:none; */
+    /* background-color:#2980b9; */
+    max-width: 900px;
+  }
+  .glider div p {
+    font-size: 16px;
+    /* padding:0 10px; */
+    /* margin: 0px; */
+    text-align: right;
+
+  }
+
+  .glider div img {
+    /* display:none; */
+    max-width: 90px;
+    /* max-height: 400px; */
+  }
+
+  .glider div p span {
+    font-size: 20px;
+  }
+
+}
+
+/* ======================= background carousel============================ */
+
+/*custom css*/
+    .bg1{
+    background-image: url(https://i.postimg.cc/cHQVvz10/Banner-1-1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    }
+    .bg2{
+    background-image: url(https://i.postimg.cc/mgKDSZVh/Banner-3-1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    }
+    .bg3{
+    background-image: url(https://i.postimg.cc/MHfq35qL/Banner-4.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    }
+    /* .carousel{
+      position: absolute;
+    } */
+    .carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 20%;
+    }
+    .carousel-caption h4 {
+    font-size: 65px;
+    font-family: poppins;
+    letter-spacing: 2px;
+    }
+    .carousel-caption p {
+    font-size: 20px;
+    font-family: poppins;
+    }
+    
+    .carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+    height: 100vh;
+    }
+    
+    .carousel-fade .carousel-inner .active {
+    opacity: 1;
+    }
+    
+    @media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right{
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left{
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active{
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    }
+
+
+    /* ===================Carousel Image for phone ================= */
+
+   /* ===================Carousel Image for phone ================= */
+
+   @media screen and (max-width: 768px){
+    .carousel-inner{
+        z-index: 4;
+        max-width: 100%;
+        /* display: none; */
+    }
+    body{
+        background-color: #ffffff;
+    }
+    .bg1{
+      background-image: url(https://i.postimg.cc/bJBqRWcb/i-Phone-11-Pro-Max-6.png);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+      }
+
+    .bg2{
+        background-image: url(https://i.postimg.cc/HL3Yrj66/i-Phone-11-Pro-Max-7.png);
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        }
+
+    .bg3{
+        background-image: url(https://i.postimg.cc/bJBqRWcb/i-Phone-11-Pro-Max-6.png);
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        }
+      .carousel-item {
+        height: 24rem;
+      }
+    
+  }
+
+/* ///////////////////////////////Carousel Image for Tablet ================= */
+
+@media screen and (max-width: 1024px){
+  .carousel-inner{
+      z-index: 0;
+      /* display: none; */
+  }
+  body{
+      background-color: #ffffff;
+      overflow-x: hidden;
+  }
+  /* .bg1{
+    background-image: url(https://i.postimg.cc/W3wxVpjT/i-Phone-11-Pro-Max-1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    }
+
+  .bg2{
+      background-image: url(https://i.postimg.cc/G2C668WX/i-Phone-11-Pro-Max-2.png);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+      }
+
+  .bg3{
+      background-image: url(https://i.postimg.cc/6QRDHLm7/i-Phone-11-Pro-Max-3.png);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+      }
+    .carousel-item {
+      height: 24rem;
+    } */
+  
+}
+
+
+/* ////////////////////////////////Carousel Image for Phones ================= */
+
+@media screen and (max-width: 584px){
+  .carousel-inner{
+      z-index: 0;
+      /* display: none; */
+  }
+  body{
+      background-color: #ffffff;
+      overflow-x: hidden;
+  }
+  .bg1{
+    background-image: url(https://i.postimg.cc/Z58Khwpt/smaller-mobile-1-1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    }
+
+  .bg2{
+      background-image: url(https://i.postimg.cc/DwkyD9WP/smaller-mobile-3-1.png);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+      }
+
+  .bg3{
+      background-image: url(https://i.postimg.cc/25Cjjn7q/smaller-mobile-2-1.png);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+      display: none;
+      }
+   
+  
+}
+
+/* ///////////////////////////////////////////////////End of Hero Section ============================ */
+
+/* ///////////////////////////Registration Form============================ */
+
+.registration{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #181616;
+  background-image: url(https://i.postimg.cc/DfCS589V/Registration-pictures-2.png);
+  background-repeat: no-repeat;
+  background-size: 85%;
+  /* background-attachment: fixed; */
+  background-position: center;
+}
+
+.glassbox{
+  width: 70%;
+  background-color: rgba(255,255,255,0.1);
+  padding:50px;
+  border-radius: 5px;
+  backdrop-filter:blur(30px);
+  border:2px solid transparent;
+  background-clip: padding-box;
+  box-shadow: 10 10 10px rgba(45, 55, 68, 0.30);
+  background-size: 90%;
+  height: 53vh;
+  z-index: 4;
+  margin: 0 auto;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.glasscontent h3{
+  color: #fff;
+}
+.glasscontent{
+  text-align: center;
+  vertical-align: middle;
+  /* line-height: 15vh; */
+  color: white;
+  padding:2%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.glasscontent button{
+  margin-top:39px;
+  padding: 20px 55px;
+  /* text-transform: uppercase; */
+  background-color: #ff0000;
+  outline: none;
+  border: none;
+  font-weight: bolder;
+  font-size:20px;
+}
+
+.glasscontent button a{
+  text-decoration: none;
+  color: #fff;
+}
+.glasscontent h3 span{
+  font-size:40px;
+}
+
+/* ///////////////////////////Registration Form ends============================ */
+
+
+/* ////////////////////////////Registration form media query==================== */
+
+@media screen and (max-width: 768px){
+  .registration{
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-position: center; 
+  }
+  .glassbox{
+    width: 90vw;
+    height: 50vh;
+  }
+  .glasscontent h3{
+    color: #fff;
+    font-size:24px;
+    line-height: 40px;
+  }
+  .glasscontent button{
+    margin-top:20px;
+    padding: 20px 25px;
+    /* text-transform: uppercase; */
+    background-color: #ff0000;
+    outline: none;
+    border: none;
+    font-weight: bolder;
+    font-size:23px;
+    letter-spacing: 1px;
+  }
+
+}
+/* /////////////////////////registration form media query for small phones=========== */
+
+
+@media screen and (max-width: 375px){
+  .registration{
+    position: relative;
+    width: 100%;
+    height: 62vh;
+    background-color:#303030;;
+  }
+  .glassbox{
+    width: 90vw;
+    height: 55vh;
+  }
+  .glasscontent h3{
+    color: #fff;
+    font-size:20px;
+    line-height: 30px;
+  }
+  .glasscontent button{
+    font-size:20px;
+    letter-spacing: 1px;
+  }
+
+}
+
+
+/* ============================gallery section ================================ */
+
+
+.gallerycontainer{
+  padding:100px 0 0;
+  background-color: #181616;
+  height: 130vh;
+  /* position: relative; */
+}
+.galleryinner{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+.Gallery h2{
+  text-transform: uppercase;
+  max-width: 100%;
+  color: #ffffff;
+  /* margin-bottom: 7%; */
+  font-size: 40px;
+}
+/* ///////////////////////////////// new codes================================ */
+.Gallery{
+  background-color: #ffffff;
+  height: 120vh;
+}
+
+
+.marquee-content img{
+  width: 400px !important;
+  padding: 10% 15%;
+}
+
+:root {
+  --marquee-width: 70vw;
+  --marquee-height: 55vh;
+  /* --marquee-elements: 12; */ /* defined with JavaScript */
+  --marquee-elements-displayed: 3;
+  --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+  --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+}
+
+.MarqueeContainer{
+  /* background-color: black; */
+  margin-top: 5%;
+  width: 70%;
+  padding: 5%, 5%;
+  /* margin-left: 10%; */
+}
+
+.marquee {
+  width: var(--marquee-width);
+  height: var(--marquee-height);
+  /* background-color: #111; */
+  color: rgba(180, 112, 112, 0);
+  overflow: hidden;
+  position: relative;
+  /* border-radius: 20px; */
+  /* margin-bottom: 10%; */
+}
+
+.marquee:before, .marquee:after {
+  position: absolute;
+  top: 0;
+  width: 10rem;
+  height: 100%;
+  content: "";
+  z-index: 1;
+}
+.marquee:before {
+  left: 0;
+  background: linear-gradient(to right, #111 0%, transparent 100%);
+}
+.marquee:after {
+  right: 0;
+  background: linear-gradient(to left, #111 0%, transparent 100%);
+}
+.marquee-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  animation: scrolling var(--marquee-animation-duration) linear infinite;
+}
+/* .marquee-content:hover {
+  animation-play-state: paused;
+} */
+@keyframes scrolling {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements))); }
+}
+.marquee-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  flex-shrink: 0;
+  width: var(--marquee-element-width);
+  max-height: 100%;
+  font-size: calc(var(--marquee-height)*3/4); /* 5rem; */
+  white-space: nowrap;
+}
+
+.marquee-content li img {
+  width: 100%;
+  /* height: 100%; */
+  /* border: 2px solid rgba(238, 238, 238, 0.171); */
+}
+
+@media (max-width: 600px) {
+  html { font-size: 12px; }
+  :root {
+    --marquee-width: 100vw;
+    --marquee-height: 16vh;
+    --marquee-elements-displayed: 3;
+  }
+  .marquee:before, .marquee:after { width: 22rem; }
+}
+
+
+
+
+
+
+/* ==================================Gallery section media query ============================= */
+/* ========================================================================================== */
+
+@media(min-width: 1200px) {
+ 
+}
+
+@media(max-width: 800px) {
+  
+}
+
+@media(max-width: 786px) {
+  .Gallery{
+    height:70vh;
+  }
+  .Gallery h2{
+    text-transform: uppercase;
+    max-width: 100%;
+    margin:5%;
+    margin-bottom: 20%;
+    font-size: 24px;
+    text-align: center;
+    height: 80px;
+    background-color: #18cf2100;
+    line-height: 40px;
+  }
+  /* .gallerycontainer{
+    height: 180vh;
+  } */
+  .galleryinner{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .marquee-content img{
+  width: 400px !important;
+  margin-bottom: 100px !important;
+  }
+  :root {
+    --marquee-width: 90vw;
+    --marquee-height: 50vh;
+    /* --marquee-elements: 12; */ /* defined with JavaScript */
+    --marquee-elements-displayed: 1;
+    --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+    --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+  }
+
+  .marquee:before {
+    left: 0;
+    background: linear-gradient(to right, rgba(17, 17, 17, 0.185) 0%, transparent 100%);
+  }
+  .marquee:after {
+    left: 30px;
+    background: linear-gradient(to left, #111 0%, transparent 100%);
+    display:none;
+  }
+  .MarqueeContainer{
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0;
+    width: 90%;
+    padding: 0;
+    /* height:900px !important; */
+    /* margin-left: 10%; */
+  }
+  marquee{
+    /* background-color:#181616; */
+    width: 100%;
+    margin-left:40%;
+  }
+}
+
+
+/* ///////////////////////////////////Gallery section media query for small phones================ */
+
+@media(max-width: 375px){
+  .Gallery{
+    height:100vh;
+    background:rgb(163, 41, 41);
+  }
+  .Gallery h2{
+    text-transform: uppercase;
+    max-width: 100%;
+    margin:10%;
+    margin-bottom: 15%;
+    font-size: 20px;
+    text-align: center;
+    height: 60px;
+    background-color: #18cf2100;
+    line-height: 40px;
+  }
+  /* .gallerycontainer{
+    height: 180vh;
+  } */
+  .galleryinner{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .marquee-content img{
+  width: 400px !important;
+  margin-bottom: 10px !important;
+  }
+  
+}
+
+/* //////////////////////////////////new code ends============================= */
+
+/* /////////////////////////////////////Gallery media query========================== */
+
+
+
+
+
+
+/* //////////////////////////////SOCIAL SECTIONS=================================== */
+.socialsection{
+  /* background-color: #aa99991f; */
+  height: 50vh;
+  position: relative;
+}
+.Socialcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 20%;
+}
+.social-text h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight:bolder;
+  color: #fff;
+}
+
+/* .socialicons a:nth-child(1),
+.socialicons a:nth-child(2),
+.socialicons a:nth-child(3),
+.socialicons a:nth-child(4)
+{
+  padding: 40px 20px;
+  
+} */
+.Twitter:hover{
+ color: red;
+}
+
+/* ///////////////// socialicons animantion/////////////////// */
+
+.socialicons ul{
+  list-style:none;
+  padding: 40px 0px;
+}
+.socialicons ul li{
+  display:inline-block;
+  line-height:60px;
+  width:60px;
+  height:60px;
+  background-color:#353333;
+  text-align:center;
+  border:1px solid #ffffff;
+  border-radius:50%;
+  margin:5px;
+  transition:0.5s;
+}
+.socialicons ul li a{
+  font-size:28px;
+  color:#adadad;
+  transition:0.5s;
+}
+.socialicons ul li:nth-child(1),
+.socialicons ul li:nth-child(2),
+.socialicons ul li:nth-child(3),
+.socialicons ul li:nth-child(4) 
+{
+  margin: 0px 20px;
+}
+.socialicons ul li:hover{
+  border-color:#fff;
+  box-shadow:0px 0px 20px #fff,
+    0px 0px 10px #fff;
+}
+.socialicons ul li:hover a{
+  color:#fff;
+}
+.socialicons ul li:nth-child(1):hover a{
+  color:#3498db
+}
+.socialicons ul li:nth-child(2):hover a{
+  color:#e74c3c
+}
+.socialicons ul li:nth-child(3):hover a{
+  color:#3498db
+}
+.socialicons ul li:nth-child(4):hover a{
+  color:#18cf22
+}
+.socialicons ul li:nth-child(5):hover a{
+  color:#2980b9
+}
+
+
+.phonenumber h2{
+  color:#adadad;
+  font-size: 45px;
+  line-height: 60px;
+  margin-bottom: -10%;
+}
+/* ////////////////////////////////footer============================ */
+footer{
+  position: relative;
+  height:10vh;
+  background:#303030;
+  color:#fff;
+  font-size:15px;
+  font-family: poppins;
+  font-weight: 200;
+  letter-spacing:5px;
+  margin-top: 10%;
+}
+.fcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* /////////////////////////////footer/social section media query========================= */
+
+@media(max-width: 786px) {
+  .socialsection{
+    height: 35vh;
+    position: relative;
+    overflow-x: hidden;
+  }
+  .Socialcontainer{
+    margin-top:5%;
+    text-align: center;
+    width: 100%;
+  }
+  .social-text h1{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight:bolder;
+    color: #fff;
+    margin-bottom: 15%;
+  }
+  .socialicons ul{
+    list-style:none;
+    padding: 10px 0px;
+  }
+  .socialicons ul li{
+    display:inline-block;
+    line-height:60px;
+    width:55px;
+    height:55px;
+    background-color:#353333;
+    text-align:center;
+    border:1px solid #ffffff;
+    border-radius:50%;
+    margin:5px;
+    transition:0.5s;
+  }
+  .socialicons ul li a{
+    font-size:23px;
+    color:#adadad;
+    transition:0.5s;
+  }
+  .socialicons ul li:nth-child(1),
+  .socialicons ul li:nth-child(2),
+  .socialicons ul li:nth-child(3),
+  .socialicons ul li:nth-child(4) 
+  {
+    margin: 0px 5px;
+  }
+  .phonenumber h2{
+    font-size: 33px;
+  }
+  /* //////////////////////// Social section media query for small phones================== */
+  /* ==================footer media query=============== */
+  footer{
+    
+    font-size:15px;
+    font-family: poppins;
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2px;
+    margin-top: 32%;
+  }
+  .fcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width:80%;
+  }
+  .alltags{
+    background-color: #181616;
+  
+          /* Unnecessary IMHO, uncomment next line to force hidden behavior */
+          overflow-x: hidden !important;
+          /* Additional tunning proposed by the community */
+          position: relative;
+          width: 100%;
+  }
+}
+
+
+
+ /* //////////////////////// Social section media query for small phones================== */
+
+@media(max-width: 375px) {
+  .socialsection{
+    height: 40vh;
+    /* overflow-x: hidden; */
+    overflow-y:hidden; 
+    overflow-x:auto;
+  }
+  .Socialcontainer{
+    position: relative;
+    margin-top:5%;
+    text-align: center;
+    width: 100%;
+  }
+  .social-text h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight:bolder;
+    color: #fff;
+    margin-bottom: 15%;
+  }
+  .socialicons ul{
+    list-style:none;
+    padding: 10px 0px;
+  }
+  .socialicons ul li{
+    display:inline-block;
+    line-height:60px;
+    width:55px;
+    height:55px;
+    background-color:#353333;
+    text-align:center;
+    border:1px solid #ffffff;
+    border-radius:50%;
+    margin:5px;
+    transition:0.5s;
+  }
+  .socialicons ul li a{
+    font-size:23px;
+    color:#adadad;
+    transition:0.5s;
+  }
+  .socialicons ul li:nth-child(1),
+  .socialicons ul li:nth-child(2),
+  .socialicons ul li:nth-child(3),
+  .socialicons ul li:nth-child(4) 
+  {
+    margin: 0px 5px;
+  }
+  .phonenumber h2{
+    font-size: 26px;
+  }
+
+
+  /* //////////////////////// Social section media query for small phones================== */
+
+  
+  /* ==================footer media query=============== */
+  footer{
+    
+    font-size:13px;
+    font-family: poppins;
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2px;
+    margin-top: 32%;
+  }
+  .fcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width:80%;
+  }
+  .alltags{
+    background-color: #181616;
+  
+          /* Unnecessary IMHO, uncomment next line to force hidden behavior */
+          overflow-x: hidden !important;
+          /* Additional tunning proposed by the community */
+          position: relative;
+          width: 100%;
+  }
+}
